@@ -9,8 +9,10 @@ const Hero = () => {
       className="relative min-h-[100vh] flex items-center justify-center overflow-hidden"
     >
       <div className="absolute inset-0">
-        <img src={heroImg} alt="Tracto camión Transportes Grupo Chavez" className="w-full h-full object-cover" />
+        <img src={heroImg} alt="Tracto camión Transportes Grupo Chavez" className="w-full h-full object-cover object-center" />
+        {/* Layered overlay for a cleaner, less flat look */}
         <div className="absolute inset-0 bg-gradient-hero" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
       </div>
 
       <div className="relative container-section text-center text-white pt-24 pb-16">

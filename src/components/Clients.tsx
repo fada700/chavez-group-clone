@@ -1,5 +1,4 @@
 import Reveal from "./Reveal";
-import { Phone } from "lucide-react";
 
 const clients = [
   { name: "Jumex", sub: "Envases Universales" },
@@ -72,13 +71,6 @@ const Clients = () => {
                 {r.sub && (
                   <div className="text-xs text-muted-foreground mt-1">{r.sub}</div>
                 )}
-                <a
-                  href={`tel:${r.tel}`}
-                  className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline"
-                >
-                  <Phone className="w-3.5 h-3.5" />
-                  {r.phone}
-                </a>
               </div>
             ))}
           </div>
