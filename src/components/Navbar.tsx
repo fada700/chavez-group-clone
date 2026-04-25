@@ -109,32 +109,21 @@ const Navbar = () => {
             })}
           </ul>
 
-          {/* CTA + mobile toggle */}
-          <div className="flex items-center gap-2">
-            <Button
-              asChild
-              variant="accent"
-              size="sm"
-              className="hidden md:inline-flex rounded-full group"
-            >
-              <a href="#contacto">
-                Cotizar
-                <ArrowRight className="ml-1 w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" />
-              </a>
-            </Button>
+          {/* Mobile toggle */}
+          <button
+            onClick={() => setOpen(!open)}
+            className={`lg:hidden p-2 rounded-full transition-colors ${
+              scrolled
+                ? "text-primary hover:bg-muted"
+                : "text-white hover:bg-white/10"
+            }`}
+            aria-label="Menú"
+          >
+            {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </button>
 
-            <button
-              onClick={() => setOpen(!open)}
-              className={`lg:hidden p-2 rounded-full transition-colors ${
-                scrolled
-                  ? "text-primary hover:bg-muted"
-                  : "text-white hover:bg-white/10"
-              }`}
-              aria-label="Menú"
-            >
-              {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-            </button>
-          </div>
+          {/* Spacer to balance logo on desktop */}
+          <div className="hidden lg:block w-[140px]" />
         </nav>
       </div>
 
