@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { Menu, X, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo-chavez.png";
 
 const links = [
@@ -149,15 +148,6 @@ const Navbar = () => {
                   </a>
                 );
               })}
-              <Button
-                asChild
-                variant="accent"
-                className="mt-2 rounded-full"
-              >
-                <a href="#contacto" onClick={() => setOpen(false)}>
-                  Solicitar Cotización
-                </a>
-              </Button>
             </div>
           </div>
         </div>
