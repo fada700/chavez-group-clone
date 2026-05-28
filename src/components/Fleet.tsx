@@ -5,6 +5,7 @@ import t1 from "@/assets/truck-red.jpg";
 import t2 from "@/assets/truck-white.jpg";
 import t3 from "@/assets/truck-black.jpg";
 import t4 from "@/assets/truck-side.jpg";
+import t5 from "@/assets/truck-red-66.jpg";
 import drySvg from "@/assets/truck-fleet.jpg";
 import reeferImg from "@/assets/truck-red2.jpg";
 
@@ -47,6 +48,13 @@ const units: Unit[] = [
     features: ["Color Blanco", "GPS Satelital", "Seguro vial vigente"],
   },
   {
+    num: "66-BB-1S",
+    img: t5,
+    type: "Tracto",
+    capacity: "Hasta 30 ton · Caja 53\"",
+    features: ["Color Rojo", "GPS Satelital", "Seguro vial vigente"],
+  },
+  {
     num: "Caja Seca 53\"",
     img: drySvg,
     type: "Caja Seca",
@@ -77,7 +85,7 @@ const Fleet = () => {
               Nuestra Flota
             </h2>
             <p className="text-muted-foreground text-lg">
-              4 tractos y 6 cajas — 100% monitoreadas con GPS satelital
+              5 tractos y 6 cajas — 100% monitoreadas con GPS satelital
             </p>
           </div>
         </Reveal>
