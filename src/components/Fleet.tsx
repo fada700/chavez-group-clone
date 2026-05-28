@@ -5,6 +5,7 @@ import t1 from "@/assets/truck-red.jpg";
 import t2 from "@/assets/truck-white.jpg";
 import t3 from "@/assets/truck-black.jpg";
 import t4 from "@/assets/truck-side.jpg";
+import t5 from "@/assets/truck-red-66.jpg";
 import drySvg from "@/assets/truck-fleet.jpg";
 import reeferImg from "@/assets/truck-red2.jpg";
 
