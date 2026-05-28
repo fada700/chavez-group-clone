@@ -48,6 +48,13 @@ const units: Unit[] = [
     features: ["Color Blanco", "GPS Satelital", "Seguro vial vigente"],
   },
   {
+    num: "66-BB-1S",
+    img: t5,
+    type: "Tracto",
+    capacity: "Hasta 30 ton · Caja 53\"",
+    features: ["Color Rojo", "GPS Satelital", "Seguro vial vigente"],
+  },
+  {
     num: "Caja Seca 53\"",
     img: drySvg,
     type: "Caja Seca",
