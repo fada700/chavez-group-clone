@@ -85,7 +85,7 @@ const Fleet = () => {
               Nuestra Flota
             </h2>
             <p className="text-muted-foreground text-lg">
-              4 tractos y 6 cajas — 100% monitoreadas con GPS satelital
+              5 tractos y 6 cajas — 100% monitoreadas con GPS satelital
             </p>
           </div>
         </Reveal>
