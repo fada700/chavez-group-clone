@@ -2,90 +2,126 @@
   "units": [
     {
       "id": 1,
-      "num": "Freightliner Azul",
-      "img": "fleet/69ddd77b-4747-44fd-98c2-83bae0129650.jfif",
+      "num": "79",
+      "name": "Tracto Rojo",
+      "img": "truck-red.jpg",
       "type": "Tracto",
+      "color": "Rojo",
       "capacity": "Hasta 30 ton · Caja 53\"",
-      "features": ["Color Azul", "GPS Satelital", "Seguro vial vigente"]
+      "features": ["GPS Satelital", "Seguro vial vigente", "Caja seca 53\""],
+      "highlight": null
     },
     {
       "id": 2,
-      "num": "Freightliner Cascadia",
-      "img": "fleet/796ed8cc-866a-4d77-bba5-daaee913fa19.jfif",
+      "num": "66",
+      "name": "Tracto Rojo Claro",
+      "img": "truck-red2.jpg",
       "type": "Tracto",
-      "capacity": "Hasta 30 ton · Caja Refrigerada",
-      "features": ["Color Blanco", "GPS Satelital", "Cadena de frío"]
+      "color": "Rojo Claro",
+      "capacity": "Hasta 30 ton · Caja 53\"",
+      "features": ["GPS Satelital", "Seguro vial vigente", "Caja seca 53\""],
+      "highlight": null
     },
     {
       "id": 3,
-      "num": "International",
-      "img": "truck-red.jpg",
+      "num": "69",
+      "name": "Tracto Negro",
+      "img": "truck-black.jpg",
       "type": "Tracto",
+      "color": "Negro",
       "capacity": "Hasta 30 ton · Caja 53\"",
-      "features": ["Color Blanco", "GPS Satelital", "Seguro vial vigente"]
+      "features": ["GPS Satelital", "Seguro vial vigente", "Caja seca 53\""],
+      "highlight": null
     },
     {
       "id": 4,
-      "num": "Peterbilt No. 44",
+      "num": "44",
+      "name": "Tracto Blanco",
       "img": "truck-white.jpg",
       "type": "Tracto",
+      "color": "Blanco",
       "capacity": "Hasta 30 ton · Caja 53\"",
-      "features": ["Color Blanco", "GPS Satelital", "Seguro vial vigente"]
+      "features": ["GPS Satelital", "Seguro vial vigente", "Caja seca 53\""],
+      "highlight": null
     },
     {
       "id": 5,
-      "num": "Kenworth T2000",
-      "img": "truck-red2.jpg",
+      "num": "EDITABLE",
+      "name": "Tracto [Editable]",
+      "img": "truck-side.jpg",
       "type": "Tracto",
+      "color": "[Editable]",
       "capacity": "Hasta 30 ton · Caja 53\"",
-      "features": ["Color Blanco", "GPS Satelital", "Seguro vial vigente"]
+      "features": ["GPS Satelital", "Seguro vial vigente", "Caja seca 53\""],
+      "highlight": null,
+      "_comment": "Reemplaza EDITABLE con tu número de tracto y completa los datos"
     },
     {
       "id": 6,
-      "num": "Freightliner No. 66",
-      "img": "truck-black.jpg",
+      "num": "EDITABLE",
+      "name": "Tracto [Editable]",
+      "img": "truck-fleet.jpg",
       "type": "Tracto",
+      "color": "[Editable]",
       "capacity": "Hasta 30 ton · Caja 53\"",
-      "features": ["Color Rojo", "GPS Satelital", "Seguro vial vigente"]
+      "features": ["GPS Satelital", "Seguro vial vigente", "Caja seca 53\""],
+      "highlight": null,
+      "_comment": "Reemplaza EDITABLE con tu número de tracto y completa los datos"
     },
     {
       "id": 7,
-      "num": "Freightliner Cascadia Negro",
-      "img": "truck-side.jpg",
+      "num": "EDITABLE",
+      "name": "Tracto [Editable]",
+      "img": "truck-hero.jpg",
       "type": "Tracto",
+      "color": "[Editable]",
       "capacity": "Hasta 30 ton · Caja 53\"",
-      "features": ["Color Negro", "GPS Satelital", "Seguro vial vigente"]
+      "features": ["GPS Satelital", "Seguro vial vigente", "Caja seca 53\""],
+      "highlight": null,
+      "_comment": "Reemplaza EDITABLE con tu número de tracto y completa los datos"
     },
     {
       "id": 8,
-      "num": "Kenworth Blanco",
-      "img": "truck-fleet.jpg",
+      "num": "EDITABLE",
+      "name": "Tracto [Editable]",
+      "img": "fleet/69ddd77b-4747-44fd-98c2-83bae0129650.jfif",
       "type": "Tracto",
+      "color": "[Editable]",
       "capacity": "Hasta 30 ton · Caja 53\"",
-      "features": ["Color Blanco", "GPS Satelital", "Seguro vial vigente"]
+      "features": ["GPS Satelital", "Seguro vial vigente", "Caja seca 53\""],
+      "highlight": null,
+      "_comment": "Reemplaza EDITABLE con tu número de tracto y completa los datos"
     },
     {
       "id": 9,
-      "num": "Kenworth T680",
-      "img": "truck-hero.jpg",
+      "num": "EDITABLE",
+      "name": "Tracto [Editable]",
+      "img": "fleet/796ed8cc-866a-4d77-bba5-daaee913fa19.jfif",
       "type": "Tracto",
+      "color": "[Editable]",
       "capacity": "Hasta 30 ton · Caja 53\"",
-      "features": ["Color Beige", "GPS Satelital", "Seguro vial vigente"]
+      "features": ["GPS Satelital", "Seguro vial vigente", "Caja seca 53\""],
+      "highlight": null,
+      "_comment": "Reemplaza EDITABLE con tu número de tracto y completa los datos"
     },
     {
       "id": 10,
-      "num": "Caja Seca 53\"",
+      "num": "x9",
+      "name": "Caja Seca 53\"",
       "img": "fleet/caja_seca.png",
       "type": "Caja Seca",
+      "color": "Gris",
       "capacity": "53 pies · ~30 ton",
       "features": ["9 unidades disponibles", "Mercancía general", "Piso reforzado"],
       "highlight": "x9"
     },
     {
       "id": 11,
-      "num": "Caja Refrigerada 53\"",
+      "num": "x2",
+      "name": "Caja Refrigerada 53\"",
       "img": "fleet/caja_refrigerada.png",
       "type": "Caja Refrigerada",
+      "color": "Blanco",
       "capacity": "53 pies · Temp. controlada",
       "features": ["2 unidades disponibles", "Carrier / Termo King", "Cadena de frío"],
       "highlight": "x2"
