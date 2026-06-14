@@ -10,7 +10,7 @@ import f03 from "@/assets/truck-red.jpg";
 import f04 from "@/assets/tracto_blanco1.png";
 import f05 from "@/assets/tracto_azul.png";
 import f06 from "@/assets/truck-black.jpg";
-import f07 from "@/assets/truck-side.jpg";
+import f07 from "@/assets/tracto_blanco2.png";
 import f08 from "@/assets/truck-fleet.jpg";
 import f09 from "@/assets/truck-hero.jpg";
 import cajaSeca from "@/assets/fleet/caja_seca.png";
@@ -24,7 +24,7 @@ const imageMap: Record<string, string> = {
   "tracto_blanco1.png": f04,
   "tracto_azul.png": f05,
   "truck-black.jpg": f06,
-  "truck-side.jpg": f07,
+  "tracto_blanco2.png": f07,
   "truck-fleet.jpg": f08,
   "truck-hero.jpg": f09,
   "fleet/caja_seca.png": cajaSeca,
