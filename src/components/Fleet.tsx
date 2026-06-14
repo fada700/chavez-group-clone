@@ -56,7 +56,7 @@ const Fleet = () => {
                 <div className="relative aspect-[4/3] overflow-hidden bg-muted">
                   <img
                     src={imageMap[u.img]}
-                    alt={`${u.type} ${u.num}`}
+                    alt={`${u.name || u.type} ${u.num}`}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     loading="lazy"
                   />
@@ -71,15 +71,24 @@ const Fleet = () => {
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                   <div className="flex items-center justify-between mb-3">
-                    <h3 className="text-xl font-bold text-primary leading-tight">
-                      {u.type === "Tracto" ? `Tracto ${u.num}` : u.num}
-                    </h3>
+                    <div className="flex flex-col">
+                      <h3 className="text-xl font-bold text-primary leading-tight">
+                        {u.type === "Tracto" 
+                          ? `Tracto ${u.num}` 
+                          : u.name}
+                      </h3>
+                      {u.color && u.type === "Tracto" && (
+                        <span className="text-xs text-muted-foreground font-medium mt-1">
+                          {u.color}
+                        </span>
+                      )}
+                    </div>
                     {u.type === "Tracto" ? (
-                      <Truck className="w-5 h-5 text-accent" />
+                      <Truck className="w-5 h-5 text-accent flex-shrink-0" />
                     ) : u.type === "Caja Refrigerada" ? (
-                      <Snowflake className="w-5 h-5 text-accent" />
+                      <Snowflake className="w-5 h-5 text-accent flex-shrink-0" />
                     ) : (
-                      <Package className="w-5 h-5 text-accent" />
+                      <Package className="w-5 h-5 text-accent flex-shrink-0" />
                     )}
                   </div>
 
