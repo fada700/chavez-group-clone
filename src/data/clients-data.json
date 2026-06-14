@@ -1,0 +1,43 @@
+{
+  "brandLogos": [
+    {
+      "name": "Nestlé",
+      "logo": "/logos/nestle_logoitpo.png",
+      "subtitle": null
+    },
+    {
+      "name": "Argos",
+      "logo": "/logos/ARGOS_BC_logotipo.webp",
+      "subtitle": null
+    },
+    {
+      "name": "Kellogg's",
+      "logo": "/logos/Kellogg-Logo-650x366.png",
+      "subtitle": null
+    },
+    {
+      "name": "Embotelladora Las Margaritas",
+      "logo": "/logos/topo-chico-logo-png_seeklogo-218668.png",
+      "subtitle": "Topo Chico"
+    },
+    {
+      "name": "Kenworth",
+      "logo": "/logos/kenworth-logo-png_seeklogo-486527.png",
+      "subtitle": "Suc. San Juan del Río, Qro."
+    }
+  ],
+  "contactRefs": [
+    {
+      "name": "ER Carriers SA de CV"
+    },
+    {
+      "name": "Alfredo Enríquez"
+    },
+    {
+      "name": "Disfruleg Comercializadora Construida"
+    },
+    {
+      "name": "Erempa SA de CV"
+    }
+  ]
+}
