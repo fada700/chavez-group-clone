@@ -1,14 +1,17 @@
 import Reveal from "./Reveal";
-import { Building2, Sparkles, ImageOff, User } from "lucide-react";
+import { Building2, Sparkles, User } from "lucide-react";
+import nestle from "@/assets/logos/nestle.asset.json";
+import argos from "@/assets/logos/argos.asset.json";
+import kelloggs from "@/assets/logos/kelloggs.asset.json";
+import topoChico from "@/assets/logos/topo-chico.asset.json";
+import kenworth from "@/assets/logos/kenworth.asset.json";
 
-// Logos pendientes de subir manualmente. Cuando los tengas, coloca los archivos en
-// src/assets/logos/ y reemplaza `logo: null` por el import correspondiente.
-const brandLogos: { name: string; logo: string | null; subtitle?: string }[] = [
-  { name: "Nestlé", logo: null },
-  { name: "Argos", logo: null },
-  { name: "Kellogg's", logo: null },
-  { name: "Embotelladora Las Margaritas", logo: null, subtitle: "Topo Chico" },
-  { name: "Kenworth", logo: null, subtitle: "Suc. San Juan del Río, Qro." },
+const brandLogos: { name: string; logo: string; subtitle?: string }[] = [
+  { name: "Nestlé", logo: nestle.url },
+  { name: "Argos", logo: argos.url },
+  { name: "Kellogg's", logo: kelloggs.url },
+  { name: "Embotelladora Las Margaritas", logo: topoChico.url, subtitle: "Topo Chico" },
+  { name: "Kenworth", logo: kenworth.url, subtitle: "Suc. San Juan del Río, Qro." },
 ];
 
 const contactRefs = [
@@ -60,18 +63,12 @@ const Clients = () => {
                 key={b.name}
                 className="group bg-card border border-border rounded-xl p-5 flex flex-col items-center justify-center text-center aspect-[4/3] hover:border-accent hover:shadow-elegant hover:-translate-y-1 transition-all duration-300"
               >
-                {b.logo ? (
-                  <img
-                    src={b.logo}
-                    alt={b.name}
-                    className="max-h-16 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
-                  />
-                ) : (
-                  <div className="flex flex-col items-center gap-2 text-muted-foreground/60">
-                    <ImageOff className="w-7 h-7" />
-                    <span className="text-[10px] uppercase tracking-widest">Logo pendiente</span>
-                  </div>
-                )}
+                <img
+                  src={b.logo}
+                  alt={b.name}
+                  className="max-h-16 w-auto object-contain"
+                  loading="lazy"
+                />
                 <div className="mt-3 text-sm font-bold text-primary leading-tight">
                   {b.name}
                 </div>
