@@ -3,7 +3,7 @@
     {
       "id": 1,
       "num": "Freightliner Azul",
-      "img": "/fleet/WhatsApp Image 2026-06-14 at 8.35.39 AM.jpeg",
+      "img": "fleet/69ddd77b-4747-44fd-98c2-83bae0129650.jfif",
       "type": "Tracto",
       "capacity": "Hasta 30 ton · Caja 53\"",
       "features": ["Color Azul", "GPS Satelital", "Seguro vial vigente"]
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "num": "Freightliner Cascadia",
-      "img": "/fleet/WhatsApp Image 2026-06-14 at 8.36.02 AM.jpeg",
+      "img": "fleet/796ed8cc-866a-4d77-bba5-daaee913fa19.jfif",
       "type": "Tracto",
       "capacity": "Hasta 30 ton · Caja Refrigerada",
       "features": ["Color Blanco", "GPS Satelital", "Cadena de frío"]
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "num": "International",
-      "img": "/fleet/WhatsApp Image 2026-06-14 at 8.38.19 AM.jpeg",
+      "img": "truck-red.jpg",
       "type": "Tracto",
       "capacity": "Hasta 30 ton · Caja 53\"",
       "features": ["Color Blanco", "GPS Satelital", "Seguro vial vigente"]
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "num": "Peterbilt No. 44",
-      "img": "/fleet/WhatsApp Image 2026-06-14 at 8.38.19 AM (1).jpeg",
+      "img": "truck-white.jpg",
       "type": "Tracto",
       "capacity": "Hasta 30 ton · Caja 53\"",
       "features": ["Color Blanco", "GPS Satelital", "Seguro vial vigente"]
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "num": "Kenworth T2000",
-      "img": "/fleet/WhatsApp Image 2026-06-14 at 8.38.54 AM.jpeg",
+      "img": "truck-red2.jpg",
       "type": "Tracto",
       "capacity": "Hasta 30 ton · Caja 53\"",
       "features": ["Color Blanco", "GPS Satelital", "Seguro vial vigente"]
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "num": "Freightliner No. 66",
-      "img": "/fleet/WhatsApp Image 2026-06-14 at 8.39.19 AM.jpeg",
+      "img": "truck-black.jpg",
       "type": "Tracto",
       "capacity": "Hasta 30 ton · Caja 53\"",
       "features": ["Color Rojo", "GPS Satelital", "Seguro vial vigente"]
@@ -51,7 +51,7 @@
     {
       "id": 7,
       "num": "Freightliner Cascadia Negro",
-      "img": "/fleet/WhatsApp Image 2026-06-14 at 8.39.34 AM.jpeg",
+      "img": "truck-side.jpg",
       "type": "Tracto",
       "capacity": "Hasta 30 ton · Caja 53\"",
       "features": ["Color Negro", "GPS Satelital", "Seguro vial vigente"]
@@ -59,7 +59,7 @@
     {
       "id": 8,
       "num": "Kenworth Blanco",
-      "img": "/fleet/WhatsApp Image 2026-06-14 at 8.40.04 AM.jpeg",
+      "img": "truck-fleet.jpg",
       "type": "Tracto",
       "capacity": "Hasta 30 ton · Caja 53\"",
       "features": ["Color Blanco", "GPS Satelital", "Seguro vial vigente"]
@@ -67,7 +67,7 @@
     {
       "id": 9,
       "num": "Kenworth T680",
-      "img": "/fleet/69ddd77b-4747-44fd-98c2-83bae0129650.jfif",
+      "img": "truck-hero.jpg",
       "type": "Tracto",
       "capacity": "Hasta 30 ton · Caja 53\"",
       "features": ["Color Beige", "GPS Satelital", "Seguro vial vigente"]
@@ -75,7 +75,7 @@
     {
       "id": 10,
       "num": "Caja Seca 53\"",
-      "img": "/fleet/caja_seca.png",
+      "img": "fleet/caja_seca.png",
       "type": "Caja Seca",
       "capacity": "53 pies · ~30 ton",
       "features": ["9 unidades disponibles", "Mercancía general", "Piso reforzado"],
@@ -84,7 +84,7 @@
     {
       "id": 11,
       "num": "Caja Refrigerada 53\"",
-      "img": "/fleet/caja_refrigerada.png",
+      "img": "fleet/caja_refrigerada.png",
       "type": "Caja Refrigerada",
       "capacity": "53 pies · Temp. controlada",
       "features": ["2 unidades disponibles", "Carrier / Termo King", "Cadena de frío"],
