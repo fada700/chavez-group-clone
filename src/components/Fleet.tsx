@@ -96,7 +96,7 @@ const units: Unit[] = [
   },
   {
     num: "Caja Refrigerada 53\"",
-    img: cajaRefri.url,
+    img: cajaRefri,
     type: "Caja Refrigerada",
     capacity: "53 pies · Temp. controlada",
     features: ["2 unidades disponibles", "Carrier / Termo King", "Cadena de frío"],
