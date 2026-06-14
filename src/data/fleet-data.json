@@ -24,7 +24,7 @@
     },
     {
       "id": 3,
-      "num": "69",
+      "num": "#69",
       "name": "Tracto Negro",
       "img": "truck-black.jpg",
       "type": "Tracto",
@@ -35,7 +35,7 @@
     },
     {
       "id": 4,
-      "num": "44",
+      "num": "#44",
       "name": "Tracto Blanco",
       "img": "truck-white.jpg",
       "type": "Tracto",
