@@ -11,7 +11,7 @@ import f07 from "@/assets/fleet/fleet-07.asset.json";
 import f08 from "@/assets/fleet/fleet-08.asset.json";
 import f09 from "@/assets/fleet/fleet-09.asset.json";
 import cajaSeca from "@/assets/fleet/caja-seca.asset.json";
-import cajaRefri from "@/assets/fleet/caja-refrigerada.asset.json";
+import cajaRefri from "@/assets/fleet/caja_refrigerada.png";
 
 type Unit = {
   num: string;
