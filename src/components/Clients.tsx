@@ -1,26 +1,6 @@
 import Reveal from "./Reveal";
 import { Building2, Sparkles, User } from "lucide-react";
-
-import nestleLogo    from "@/assets/logos/nestle_logoitpo.png";
-import argosLogo     from "@/assets/logos/ARGOS_BC_logotipo.webp";
-import kellogsLogo   from "@/assets/logos/Kellogg-Logo-650x366.png";
-import topoChicoLogo from "@/assets/logos/topo-chico-logo-png_seeklogo-218668.png";
-import kenworthLogo  from "@/assets/logos/kenworth-logo-png_seeklogo-486527.png";
-
-const brandLogos = [
-  { name: "Nestlé",                      logo: nestleLogo },
-  { name: "Argos",                        logo: argosLogo },
-  { name: "Kellogg's",                    logo: kellogsLogo },
-  { name: "Embotelladora Las Margaritas", logo: topoChicoLogo, subtitle: "Topo Chico" },
-  { name: "Kenworth",                     logo: kenworthLogo,  subtitle: "Suc. San Juan del Río, Qro." },
-];
-
-const contactRefs = [
-  { name: "ER Carriers SA de CV" },
-  { name: "Alfredo Enríquez" },
-  { name: "Disfruleg Comercializadora Castruida" },
-  { name: "Erempa SA de CV" },
-];
+import clientsData from "@/data/clients-data.json";
 
 const Clients = () => {
   return (
@@ -59,7 +39,7 @@ const Clients = () => {
 
         <Reveal>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-16">
-            {brandLogos.map((b) => (
+            {clientsData.brandLogos.map((b) => (
               <div
                 key={b.name}
                 className="group bg-card border border-border rounded-xl p-5 flex flex-col items-center justify-center text-center aspect-[4/3] hover:border-accent hover:shadow-elegant hover:-translate-y-1 transition-all duration-300"
@@ -96,7 +76,7 @@ const Clients = () => {
 
         <Reveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {contactRefs.map((r) => (
+            {clientsData.contactRefs.map((r) => (
               <div
                 key={r.name}
                 className="group relative bg-card border border-border rounded-xl p-5 hover:border-accent hover:-translate-y-1 hover:shadow-lg transition-all duration-300 overflow-hidden"
