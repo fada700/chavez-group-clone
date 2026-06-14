@@ -3,6 +3,34 @@ import { Button } from "@/components/ui/button";
 import Reveal from "./Reveal";
 import fleetData from "@/data/fleet-data.json";
 
+// Import all images
+import f01 from "@/assets/fleet/69ddd77b-4747-44fd-98c2-83bae0129650.jfif";
+import f02 from "@/assets/fleet/796ed8cc-866a-4d77-bba5-daaee913fa19.jfif";
+import f03 from "@/assets/truck-red.jpg";
+import f04 from "@/assets/truck-white.jpg";
+import f05 from "@/assets/truck-red2.jpg";
+import f06 from "@/assets/truck-black.jpg";
+import f07 from "@/assets/truck-side.jpg";
+import f08 from "@/assets/truck-fleet.jpg";
+import f09 from "@/assets/truck-hero.jpg";
+import cajaSeca from "@/assets/fleet/caja_seca.png";
+import cajaRefri from "@/assets/fleet/caja_refrigerada.png";
+
+// Map image keys to imports
+const imageMap: Record<string, string> = {
+  "fleet/69ddd77b-4747-44fd-98c2-83bae0129650.jfif": f01,
+  "fleet/796ed8cc-866a-4d77-bba5-daaee913fa19.jfif": f02,
+  "truck-red.jpg": f03,
+  "truck-white.jpg": f04,
+  "truck-red2.jpg": f05,
+  "truck-black.jpg": f06,
+  "truck-side.jpg": f07,
+  "truck-fleet.jpg": f08,
+  "truck-hero.jpg": f09,
+  "fleet/caja_seca.png": cajaSeca,
+  "fleet/caja_refrigerada.png": cajaRefri,
+};
+
 const Fleet = () => {
   return (
     <section id="flota" className="section-padding bg-background">
@@ -27,7 +55,7 @@ const Fleet = () => {
               <article className="group h-full flex flex-col bg-card border border-border rounded-2xl overflow-hidden shadow-md hover:shadow-elegant hover:-translate-y-1 transition-all duration-300">
                 <div className="relative aspect-[4/3] overflow-hidden bg-muted">
                   <img
-                    src={u.img}
+                    src={imageMap[u.img]}
                     alt={`${u.type} ${u.num}`}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     loading="lazy"
