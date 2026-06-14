@@ -2,7 +2,7 @@
   "units": [
     {
       "id": 1,
-      "num": "79",
+      "num": "#79",
       "name": "Tracto Rojo",
       "img": "truck-red.jpg",
       "type": "Tracto",
@@ -13,9 +13,9 @@
     },
     {
       "id": 2,
-      "num": "66",
+      "num": "#25",
       "name": "Tracto Rojo Claro",
-      "img": "truck-red2.jpg",
+      "img": "tracto-azul.png",
       "type": "Tracto",
       "color": "Rojo Claro",
       "capacity": "Hasta 30 ton · Caja 53\"",
