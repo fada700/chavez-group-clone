@@ -7,7 +7,7 @@ import fleetData from "@/data/fleet-data.json";
 import f01 from "@/assets/fleet/69ddd77b-4747-44fd-98c2-83bae0129650.jfif";
 import f02 from "@/assets/fleet/796ed8cc-866a-4d77-bba5-daaee913fa19.jfif";
 import f03 from "@/assets/truck-red.jpg";
-import f04 from "@/assets/tracto_blanco1";
+import f04 from "@/assets/tracto_blanco1.png";
 import f05 from "@/assets/tracto_azul.png";
 import f06 from "@/assets/truck-black.jpg";
 import f07 from "@/assets/truck-side.jpg";
