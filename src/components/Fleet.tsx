@@ -1,109 +1,7 @@
 import { Truck, Snowflake, Package, Satellite, ShieldCheck, ArrowRight, Gauge } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Reveal from "./Reveal";
-
-import f01 from "@/assets/fleet/fleet-01.jpeg";
-import f02 from "@/assets/fleet/fleet-02.jpeg";
-import f03 from "@/assets/fleet/fleet-03.jpeg";
-import f04 from "@/assets/fleet/fleet-04.jpeg";
-import f05 from "@/assets/fleet/fleet-05.jpeg";
-import f06 from "@/assets/fleet/fleet-06.jpeg";
-import f07 from "@/assets/fleet/fleet-07.jpeg";
-import f08 from "@/assets/fleet/fleet-08.jpeg";
-import f09 from "@/assets/fleet/fleet-09.jpeg";
-import cajaSeca from "@/assets/fleet/caja_seca.png";
-import cajaRefri from "@/assets/fleet/caja_refrigerada.png";
-
-type Unit = {
-  num: string;
-  img: string;
-  type: "Tracto" | "Caja Seca" | "Caja Refrigerada";
-  capacity: string;
-  features: string[];
-  highlight?: string;
-};
-
-const units: Unit[] = [
-  {
-    num: "Freightliner Azul",
-    img: f01,
-    type: "Tracto",
-    capacity: 'Hasta 30 ton · Caja 53"',
-    features: ["Color Azul", "GPS Satelital", "Seguro vial vigente"],
-  },
-  {
-    num: "Freightliner Cascadia",
-    img: f02,
-    type: "Tracto",
-    capacity: "Hasta 30 ton · Caja Refrigerada",
-    features: ["Color Blanco", "GPS Satelital", "Cadena de frío"],
-  },
-  {
-    num: "International",
-    img: f03,
-    type: "Tracto",
-    capacity: 'Hasta 30 ton · Caja 53"',
-    features: ["Color Blanco", "GPS Satelital", "Seguro vial vigente"],
-  },
-  {
-    num: "Peterbilt No. 44",
-    img: f04,
-    type: "Tracto",
-    capacity: 'Hasta 30 ton · Caja 53"',
-    features: ["Color Blanco", "GPS Satelital", "Seguro vial vigente"],
-  },
-  {
-    num: "Kenworth T2000",
-    img: f05,
-    type: "Tracto",
-    capacity: 'Hasta 30 ton · Caja 53"',
-    features: ["Color Blanco", "GPS Satelital", "Seguro vial vigente"],
-  },
-  {
-    num: "Freightliner No. 66",
-    img: f06,
-    type: "Tracto",
-    capacity: 'Hasta 30 ton · Caja 53"',
-    features: ["Color Rojo", "GPS Satelital", "Seguro vial vigente"],
-  },
-  {
-    num: "Freightliner Cascadia Negro",
-    img: f07,
-    type: "Tracto",
-    capacity: 'Hasta 30 ton · Caja 53"',
-    features: ["Color Negro", "GPS Satelital", "Seguro vial vigente"],
-  },
-  {
-    num: "Kenworth Blanco",
-    img: f08,
-    type: "Tracto",
-    capacity: 'Hasta 30 ton · Caja 53"',
-    features: ["Color Blanco", "GPS Satelital", "Seguro vial vigente"],
-  },
-  {
-    num: "Kenworth T680",
-    img: f09,
-    type: "Tracto",
-    capacity: 'Hasta 30 ton · Caja 53"',
-    features: ["Color Beige", "GPS Satelital", "Seguro vial vigente"],
-  },
-  {
-    num: 'Caja Seca 53"',
-    img: cajaSeca,
-    type: "Caja Seca",
-    capacity: "53 pies · ~30 ton",
-    features: ["9 unidades disponibles", "Mercancía general", "Piso reforzado"],
-    highlight: "x9",
-  },
-  {
-    num: 'Caja Refrigerada 53"',
-    img: cajaRefri,
-    type: "Caja Refrigerada",
-    capacity: "53 pies · Temp. controlada",
-    features: ["2 unidades disponibles", "Carrier / Termo King", "Cadena de frío"],
-    highlight: "x2",
-  },
-];
+import fleetData from "@/data/fleet-data.json";
 
 const Fleet = () => {
   return (
@@ -124,7 +22,7 @@ const Fleet = () => {
         </Reveal>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
-          {units.map((u, i) => (
+          {fleetData.units.map((u, i) => (
             <Reveal key={`${u.num}-${i}`} delay={i * 50}>
               <article className="group h-full flex flex-col bg-card border border-border rounded-2xl overflow-hidden shadow-md hover:shadow-elegant hover:-translate-y-1 transition-all duration-300">
                 <div className="relative aspect-[4/3] overflow-hidden bg-muted">
