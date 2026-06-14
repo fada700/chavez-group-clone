@@ -1,16 +1,17 @@
 import { Truck, Snowflake, Package, Satellite, ShieldCheck, ArrowRight, Gauge } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Reveal from "./Reveal";
-import f01 from "@/assets/fleet/fleet-01.asset.json";
-import f02 from "@/assets/fleet/fleet-02.asset.json";
-import f03 from "@/assets/fleet/fleet-03.asset.json";
-import f04 from "@/assets/fleet/fleet-04.asset.json";
-import f05 from "@/assets/fleet/fleet-05.asset.json";
-import f06 from "@/assets/fleet/fleet-06.asset.json";
-import f07 from "@/assets/fleet/fleet-07.asset.json";
-import f08 from "@/assets/fleet/fleet-08.asset.json";
-import f09 from "@/assets/fleet/fleet-09.asset.json";
-import cajaSeca from "@/assets/fleet/caja-seca.asset.json";
+
+import f01 from "@/assets/fleet/fleet-01.jpeg";
+import f02 from "@/assets/fleet/fleet-02.jpeg";
+import f03 from "@/assets/fleet/fleet-03.jpeg";
+import f04 from "@/assets/fleet/fleet-04.jpeg";
+import f05 from "@/assets/fleet/fleet-05.jpeg";
+import f06 from "@/assets/fleet/fleet-06.jpeg";
+import f07 from "@/assets/fleet/fleet-07.jpeg";
+import f08 from "@/assets/fleet/fleet-08.jpeg";
+import f09 from "@/assets/fleet/fleet-09.jpeg";
+import cajaSeca from "@/assets/fleet/caja_seca.png";
 import cajaRefri from "@/assets/fleet/caja_refrigerada.png";
 
 type Unit = {
@@ -25,77 +26,77 @@ type Unit = {
 const units: Unit[] = [
   {
     num: "Freightliner Azul",
-    img: f01.url,
+    img: f01,
     type: "Tracto",
-    capacity: "Hasta 30 ton · Caja 53\"",
+    capacity: 'Hasta 30 ton · Caja 53"',
     features: ["Color Azul", "GPS Satelital", "Seguro vial vigente"],
   },
   {
     num: "Freightliner Cascadia",
-    img: f02.url,
+    img: f02,
     type: "Tracto",
     capacity: "Hasta 30 ton · Caja Refrigerada",
     features: ["Color Blanco", "GPS Satelital", "Cadena de frío"],
   },
   {
     num: "International",
-    img: f03.url,
+    img: f03,
     type: "Tracto",
-    capacity: "Hasta 30 ton · Caja 53\"",
+    capacity: 'Hasta 30 ton · Caja 53"',
     features: ["Color Blanco", "GPS Satelital", "Seguro vial vigente"],
   },
   {
     num: "Peterbilt No. 44",
-    img: f04.url,
+    img: f04,
     type: "Tracto",
-    capacity: "Hasta 30 ton · Caja 53\"",
+    capacity: 'Hasta 30 ton · Caja 53"',
     features: ["Color Blanco", "GPS Satelital", "Seguro vial vigente"],
   },
   {
-    num: "Kenworth",
-    img: f05.url,
+    num: "Kenworth T2000",
+    img: f05,
     type: "Tracto",
-    capacity: "Hasta 30 ton · Caja 53\"",
+    capacity: 'Hasta 30 ton · Caja 53"',
     features: ["Color Blanco", "GPS Satelital", "Seguro vial vigente"],
   },
   {
     num: "Freightliner No. 66",
-    img: f06.url,
+    img: f06,
     type: "Tracto",
-    capacity: "Hasta 30 ton · Caja 53\"",
+    capacity: 'Hasta 30 ton · Caja 53"',
     features: ["Color Rojo", "GPS Satelital", "Seguro vial vigente"],
   },
   {
-    num: "Freightliner Cascadia",
-    img: f07.url,
+    num: "Freightliner Cascadia Negro",
+    img: f07,
     type: "Tracto",
-    capacity: "Hasta 30 ton · Caja 53\"",
+    capacity: 'Hasta 30 ton · Caja 53"',
     features: ["Color Negro", "GPS Satelital", "Seguro vial vigente"],
   },
   {
-    num: "Kenworth T2000",
-    img: f08.url,
+    num: "Kenworth Blanco",
+    img: f08,
     type: "Tracto",
-    capacity: "Hasta 30 ton · Caja 53\"",
+    capacity: 'Hasta 30 ton · Caja 53"',
     features: ["Color Blanco", "GPS Satelital", "Seguro vial vigente"],
   },
   {
     num: "Kenworth T680",
-    img: f09.url,
+    img: f09,
     type: "Tracto",
-    capacity: "Hasta 30 ton · Caja 53\"",
+    capacity: 'Hasta 30 ton · Caja 53"',
     features: ["Color Beige", "GPS Satelital", "Seguro vial vigente"],
   },
   {
-    num: "Caja Seca 53\"",
-    img: cajaSeca.url,
+    num: 'Caja Seca 53"',
+    img: cajaSeca,
     type: "Caja Seca",
     capacity: "53 pies · ~30 ton",
     features: ["9 unidades disponibles", "Mercancía general", "Piso reforzado"],
     highlight: "x9",
   },
   {
-    num: "Caja Refrigerada 53\"",
+    num: 'Caja Refrigerada 53"',
     img: cajaRefri,
     type: "Caja Refrigerada",
     capacity: "53 pies · Temp. controlada",
@@ -184,8 +185,12 @@ const Fleet = () => {
 
         <Reveal>
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground bg-surface rounded-xl p-5">
-            <div className="flex items-center gap-2"><Satellite className="w-4 h-4 text-accent" /> Rastreo satelital GPS</div>
-            <div className="flex items-center gap-2"><ShieldCheck className="w-4 h-4 text-accent" /> Seguro vial vigente</div>
+            <div className="flex items-center gap-2">
+              <Satellite className="w-4 h-4 text-accent" /> Rastreo satelital GPS
+            </div>
+            <div className="flex items-center gap-2">
+              <ShieldCheck className="w-4 h-4 text-accent" /> Seguro vial vigente
+            </div>
           </div>
         </Reveal>
       </div>
