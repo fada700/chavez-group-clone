@@ -10,6 +10,8 @@ import f06 from "@/assets/fleet/fleet-06.asset.json";
 import f07 from "@/assets/fleet/fleet-07.asset.json";
 import f08 from "@/assets/fleet/fleet-08.asset.json";
 import f09 from "@/assets/fleet/fleet-09.asset.json";
+import cajaSeca from "@/assets/fleet/caja-seca.asset.json";
+import cajaRefri from "@/assets/fleet/caja-refrigerada.asset.json";
 
 type Unit = {
   num: string;
@@ -86,7 +88,7 @@ const units: Unit[] = [
   },
   {
     num: "Caja Seca 53\"",
-    img: "/placeholder.svg",
+    img: cajaSeca.url,
     type: "Caja Seca",
     capacity: "53 pies · ~30 ton",
     features: ["9 unidades disponibles", "Mercancía general", "Piso reforzado"],
@@ -94,7 +96,7 @@ const units: Unit[] = [
   },
   {
     num: "Caja Refrigerada 53\"",
-    img: "/placeholder.svg",
+    img: cajaRefri.url,
     type: "Caja Refrigerada",
     capacity: "53 pies · Temp. controlada",
     features: ["2 unidades disponibles", "Carrier / Termo King", "Cadena de frío"],
