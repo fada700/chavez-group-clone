@@ -1,17 +1,18 @@
 import Reveal from "./Reveal";
 import { Building2, Sparkles, User } from "lucide-react";
-import nestle from "@/assets/logos/nestle.asset.json";
-import argos from "@/assets/logos/argos.asset.json";
-import kelloggs from "@/assets/logos/kelloggs.asset.json";
-import topoChico from "@/assets/logos/topo-chico.asset.json";
-import kenworth from "@/assets/logos/kenworth.asset.json";
 
-const brandLogos: { name: string; logo: string; subtitle?: string }[] = [
-  { name: "Nestlé", logo: nestle.url },
-  { name: "Argos", logo: argos.url },
-  { name: "Kellogg's", logo: kelloggs.url },
-  { name: "Embotelladora Las Margaritas", logo: topoChico.url, subtitle: "Topo Chico" },
-  { name: "Kenworth", logo: kenworth.url, subtitle: "Suc. San Juan del Río, Qro." },
+import nestleLogo    from "@/assets/logos/nestle_logoitpo.png";
+import argosLogo     from "@/assets/logos/ARGOS_BC_logotipo.webp";
+import kellogsLogo   from "@/assets/logos/Kellogg-Logo-650x366.png";
+import topoChicoLogo from "@/assets/logos/topo-chico-logo-png_seeklogo-218668.png";
+import kenworthLogo  from "@/assets/logos/kenworth-logo-png_seeklogo-486527.png";
+
+const brandLogos = [
+  { name: "Nestlé",                      logo: nestleLogo },
+  { name: "Argos",                        logo: argosLogo },
+  { name: "Kellogg's",                    logo: kellogsLogo },
+  { name: "Embotelladora Las Margaritas", logo: topoChicoLogo, subtitle: "Topo Chico" },
+  { name: "Kenworth",                     logo: kenworthLogo,  subtitle: "Suc. San Juan del Río, Qro." },
 ];
 
 const contactRefs = [
@@ -43,7 +44,7 @@ const Clients = () => {
           </div>
         </Reveal>
 
-        {/* 3a. Brand logos */}
+        {/* Referencias Empresariales */}
         <Reveal>
           <div className="mb-6">
             <div className="flex items-center gap-3 mb-5">
@@ -80,7 +81,7 @@ const Clients = () => {
           </div>
         </Reveal>
 
-        {/* 3b. Contact references */}
+        {/* Referencias de Contacto */}
         <Reveal>
           <div className="mb-6">
             <div className="flex items-center gap-3 mb-5">
@@ -110,9 +111,7 @@ const Clients = () => {
                     )}
                   </div>
                   <div className="min-w-0">
-                    <div className="text-sm font-bold text-primary leading-snug">
-                      {r.name}
-                    </div>
+                    <div className="text-sm font-bold text-primary leading-snug">{r.name}</div>
                   </div>
                 </div>
               </div>
