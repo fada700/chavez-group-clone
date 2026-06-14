@@ -22,7 +22,7 @@ const imageMap: Record<string, string> = {
   "fleet/796ed8cc-866a-4d77-bba5-daaee913fa19.jfif": f02,
   "truck-red.jpg": f03,
   "truck-white.jpg": f04,
-  "truck-red2.jpg": f05,
+  "tracto_azul.png": f05,
   "truck-black.jpg": f06,
   "truck-side.jpg": f07,
   "truck-fleet.jpg": f08,
