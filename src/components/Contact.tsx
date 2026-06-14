@@ -30,7 +30,7 @@ const Contact = () => {
                     <MapPin className="w-5 h-5" />
                   </div>
                   <div>
-                    <div className="text-xs uppercase tracking-widest text-white/60 mb-1">Dirección</div>
+                    <div className="text-xs uppercase tracking-widest text-white/60 mb-1">Dirección Fiscal</div>
                     <div className="text-sm leading-relaxed">
                       Calle Cruz del Campo Santo Mz3 Lt13, Col. Ciudad Satélite, Naucalpan de Juárez, México. C.P. 53100
                     </div>
@@ -98,14 +98,15 @@ const Contact = () => {
                   <MapPin className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <div className="text-xs uppercase tracking-widest text-muted-foreground">Ubicación</div>
-                  <h3 className="text-lg font-bold text-primary">Patio de Maniobras</h3>
+                  <div className="text-xs uppercase tracking-widest text-muted-foreground">Patio de Maniobras</div>
+                  <h3 className="text-lg font-bold text-primary">Oriente #06, Nuevo Parque Industrial</h3>
+                  <p className="text-sm text-muted-foreground">San Juan del Río, Querétaro</p>
                 </div>
               </div>
               <div className="flex-1 rounded-2xl overflow-hidden shadow-elegant border border-border min-h-[380px]">
                 <iframe
                   title="Patio de Maniobras Transportes Grupo Chavez"
-                  src="https://www.google.com/maps?q=19.508889,-99.243889&hl=es&z=16&output=embed"
+                  src="https://www.google.com/maps?q=Oriente+6,+Nuevo+Parque+Industrial,+San+Juan+del+Rio,+Quer%C3%A9taro&hl=es&z=16&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0, minHeight: "380px" }}
@@ -113,13 +114,13 @@ const Contact = () => {
                 />
               </div>
               <a
-                href="https://maps.app.goo.gl/pyquMsCF4xPMkAu36"
+                href="https://www.google.com/maps/search/?api=1&query=Oriente+6,+Nuevo+Parque+Industrial,+San+Juan+del+Rio,+Quer%C3%A9taro"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-accent hover:underline"
               >
                 <MapPin className="w-4 h-4" />
-                Ver en Google Maps
+                Abrir en Google Maps
               </a>
             </div>
           </Reveal>

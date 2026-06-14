@@ -1,12 +1,12 @@
-import { Truck, Package, Map, Satellite } from "lucide-react";
+import { Truck, Package, Map, Snowflake } from "lucide-react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
 const stats = [
-  { icon: Truck, value: 5, suffix: "", label: "Tractos activos" },
-  { icon: Package, value: 6, suffix: "", label: "Cajas de 53\" (secas y refrigeradas)" },
+  { icon: Truck, value: 9, suffix: "", label: "Tractos activos" },
+  { icon: Package, value: 9, suffix: "", label: "Cajas secas 53\"" },
+  { icon: Snowflake, value: 2, suffix: "", label: "Cajas refrigeradas 53\"" },
   { icon: Map, value: 7, suffix: "+", label: "Estados con cobertura" },
-  { icon: Satellite, value: 100, suffix: "%", label: "Unidades con GPS" },
 ];
 
 const Stats = () => {
