@@ -2,6 +2,22 @@ import Reveal from "./Reveal";
 import { Building2, Sparkles, User } from "lucide-react";
 import clientsData from "@/data/clients-data.json";
 
+// Import all logos
+import nestleLogo from "@/assets/logos/nestle_logoitpo.png";
+import argosLogo from "@/assets/logos/ARGOS_BC_logotipo.webp";
+import kellogsLogo from "@/assets/logos/Kellogg-Logo-650x366.png";
+import topoChicoLogo from "@/assets/logos/topo-chico-logo-png_seeklogo-218668.png";
+import kenworthLogo from "@/assets/logos/kenworth-logo-png_seeklogo-486527.png";
+
+// Map logo keys to imports
+const logoMap: Record<string, string> = {
+  "/logos/nestle_logoitpo.png": nestleLogo,
+  "/logos/ARGOS_BC_logotipo.webp": argosLogo,
+  "/logos/Kellogg-Logo-650x366.png": kellogsLogo,
+  "/logos/topo-chico-logo-png_seeklogo-218668.png": topoChicoLogo,
+  "/logos/kenworth-logo-png_seeklogo-486527.png": kenworthLogo,
+};
+
 const Clients = () => {
   return (
     <section className="relative py-20 bg-surface overflow-hidden">
@@ -45,7 +61,7 @@ const Clients = () => {
                 className="group bg-card border border-border rounded-xl p-5 flex flex-col items-center justify-center text-center aspect-[4/3] hover:border-accent hover:shadow-elegant hover:-translate-y-1 transition-all duration-300"
               >
                 <img
-                  src={b.logo}
+                  src={logoMap[b.logo]}
                   alt={b.name}
                   className="max-h-16 w-auto object-contain"
                   loading="lazy"
