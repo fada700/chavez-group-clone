@@ -2,7 +2,7 @@ import { Package, Snowflake, Satellite, ShieldCheck, MapPinned, Settings2 } from
 import Reveal from "./Reveal";
 
 const services = [
-  { icon: Package, title: "Caja Seca", desc: "4 cajas secas de 53\" disponibles para todo tipo de mercancía." },
+  { icon: Package, title: "Caja Seca", desc: "9 cajas secas de 53\" disponibles para todo tipo de mercancía." },
   { icon: Snowflake, title: "Caja Refrigerada", desc: "2 cajas refrigeradas de 53\" para productos que requieren temperatura controlada." },
   { icon: Satellite, title: "Rastreo GPS", desc: "Todas las unidades cuentan con monitoreo online mediante rastreo satelital GPS." },
   { icon: ShieldCheck, title: "Seguro Vial", desc: "Cada unidad cuenta con seguro vial vigente para garantizar la seguridad de tu carga." },
