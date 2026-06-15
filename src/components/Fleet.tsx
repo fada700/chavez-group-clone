@@ -44,7 +44,6 @@ const Fleet = () => {
               Nuestra Flota
             </h2>
             <p className="text-muted-foreground text-lg">
-              9 tractos, 9 cajas secas y 2 refrigeradas — 100% monitoreadas con GPS satelital
             </p>
           </div>
         </Reveal>
