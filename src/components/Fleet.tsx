@@ -6,7 +6,7 @@ import fleetData from "@/data/fleet-data.json";
 // Import all images
 import f01 from "@/assets/fleet/69ddd77b-4747-44fd-98c2-83bae0129650.jfif";
 import f02 from "@/assets/fleet/796ed8cc-866a-4d77-bba5-daaee913fa19.jfif";
-import f03 from "@/assets/truck-red.jpg";
+import f03 from "@/assets/7aa35ed8-78d8-4546-9c56-f38cccddb9bb.jpeg";
 import f04 from "@/assets/tracto_blanco1.png";
 import f05 from "@/assets/tracto_azul.png";
 import f06 from "@/assets/3aaea6b5-9ff0-4e10-8c5f-7e920dca0eb3.jpeg";
@@ -20,7 +20,7 @@ import cajaRefri from "@/assets/fleet/caja_refrigerada.png";
 const imageMap: Record<string, string> = {
   "fleet/69ddd77b-4747-44fd-98c2-83bae0129650.jfif": f01,
   "fleet/796ed8cc-866a-4d77-bba5-daaee913fa19.jfif": f02,
-  "truck-red.jpg": f03,
+  "7aa35ed8-78d8-4546-9c56-f38cccddb9bb.jpeg": f03,
   "tracto_blanco1.png": f04,
   "tracto_azul.png": f05,
   "3aaea6b5-9ff0-4e10-8c5f-7e920dca0eb3.jpeg": f06,
