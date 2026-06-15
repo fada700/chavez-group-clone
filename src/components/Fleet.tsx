@@ -9,7 +9,7 @@ import f02 from "@/assets/fleet/796ed8cc-866a-4d77-bba5-daaee913fa19.jfif";
 import f03 from "@/assets/truck-red.jpg";
 import f04 from "@/assets/tracto_blanco1.png";
 import f05 from "@/assets/tracto_azul.png";
-import f06 from "@/assets/truck-black.jpg";
+import f06 from "@/assets/3aaea6b5-9ff0-4e10-8c5f-7e920dca0eb3.png";
 import f07 from "@/assets/tracto_blanco2.png";
 import f08 from "@/assets/tracto_blanco3.png";
 import f09 from "@/assets/truck-hero.jpg";
@@ -23,7 +23,7 @@ const imageMap: Record<string, string> = {
   "truck-red.jpg": f03,
   "tracto_blanco1.png": f04,
   "tracto_azul.png": f05,
-  "truck-black.jpg": f06,
+  "3aaea6b5-9ff0-4e10-8c5f-7e920dca0eb3.jpg": f06,
   "tracto_blanco2.png": f07,
   "tracto_blanco3.png": f08,
   "truck-hero.jpg": f09,
