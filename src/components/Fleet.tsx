@@ -9,7 +9,7 @@ import f02 from "@/assets/fleet/796ed8cc-866a-4d77-bba5-daaee913fa19.jfif";
 import f03 from "@/assets/truck-red.jpg";
 import f04 from "@/assets/tracto_blanco1.png";
 import f05 from "@/assets/tracto_azul.png";
-import f06 from "@/assets/3aaea6b5-9ff0-4e10-8c5f-7e920dca0eb3.png";
+import f06 from "@/assets/3aaea6b5-9ff0-4e10-8c5f-7e920dca0eb3.jpg";
 import f07 from "@/assets/tracto_blanco2.png";
 import f08 from "@/assets/tracto_blanco3.png";
 import f09 from "@/assets/truck-hero.jpg";
