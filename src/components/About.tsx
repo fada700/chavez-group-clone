@@ -1,6 +1,6 @@
 import { Target, Eye, CheckCircle2 } from "lucide-react";
 import Reveal from "./Reveal";
-import truckImg from "@/assets/truck-red.jpg";
+import truckImg from "@/assets/7aa35ed8-78d8-4546-9c56-f38cccddb9bb.jpeg";
 
 const About = () => {
   return (
