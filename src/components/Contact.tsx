@@ -51,7 +51,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="text-xs uppercase tracking-widest text-white/60 mb-1">Correo</div>
-                    <a href="mailto:beni_3000@outlook.com" className="text-sm font-semibold hover:text-accent transition-colors break-all">beni_3000@outlook.com</a>
+                    <a href="mailto:transportesgrupochavez@gmail.com" className="text-sm font-semibold hover:text-accent transition-colors break-all">beni_3000@outlook.com</a>
                   </div>
                 </li>
                 <li className="flex gap-4">
