@@ -43,9 +43,6 @@ const Fleet = () => {
             <h2 className="text-3xl md:text-5xl font-extrabold text-primary mb-4">
               Parte de nuestra flota.
             </h2>
-            <p className="text-muted-foreground text-lg">
-              Transportes Chavez.
-            </p>
           </div>
         </Reveal>
 
