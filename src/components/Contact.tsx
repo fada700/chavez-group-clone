@@ -99,7 +99,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="text-xs uppercase tracking-widest text-muted-foreground">Patio de Maniobras</div>
-                  <h3 className="text-lg font-bold text-primary">Oriente #06, Nuevo Parque Industrial</h3>
+                  <h3 className="text-lg font-bold text-primary">Oriente 2 #11, Nuevo Parque industrial.</h3>
                   <p className="text-sm text-muted-foreground">San Juan del Río, Querétaro</p>
                 </div>
               </div>
