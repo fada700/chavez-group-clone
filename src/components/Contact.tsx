@@ -60,7 +60,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="text-xs uppercase tracking-widest text-white/60 mb-1">RFC</div>
-                    <div className="text-sm font-semibold">CAGR80203215D9</div>
+                    <div className="text-sm font-semibold">CAGR8203215D9</div>
                   </div>
                 </li>
                 <li className="flex gap-4">
