@@ -48,13 +48,13 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-white/75">
               <li className="flex gap-2"><MapPin className="w-4 h-4 mt-0.5 flex-shrink-0 text-accent" /> Ciudad Satélite, Naucalpan, Edo. Mex.</li>
               <li className="flex gap-2"><Phone className="w-4 h-4 mt-0.5 flex-shrink-0 text-accent" /> 554 841 5148</li>
-              <li className="flex gap-2"><Mail className="w-4 h-4 mt-0.5 flex-shrink-0 text-accent" /> beni_3000@outlook.com</li>
+              <li className="flex gap-2"><Mail className="w-4 h-4 mt-0.5 flex-shrink-0 text-accent" /> transportesgrupochavez@gmail.com</li>
             </ul>
             <div className="flex gap-3 mt-5">
               <a href="https://wa.me/525548415148" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-accent flex items-center justify-center transition-colors">
                 <MessageCircle className="w-5 h-5" />
               </a>
-              <a href="mailto:beni_3000@outlook.com" aria-label="Correo" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-accent flex items-center justify-center transition-colors">
+              <a href="mailto:transportesgrupochavez@gmail.com" aria-label="Correo" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-accent flex items-center justify-center transition-colors">
                 <Mail className="w-5 h-5" />
               </a>
             </div>
