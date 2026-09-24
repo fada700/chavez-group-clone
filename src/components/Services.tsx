@@ -2,7 +2,7 @@ import { Package, Snowflake, Satellite, ShieldCheck, MapPinned, Settings2 } from
 import Reveal from "./Reveal";
 
 const services = [
-  { icon: Settings2, title: " Flota Tractocamiones", desc: "15 Tracto Camiones disponibles." },
+  { icon: Settings2, title: " Tractocamiones", desc: "15 TractoCamiones disponibles." },
   { icon: Package, title: "Caja Seca", desc: "15 cajas secas de 53\" disponibles para todo tipo de mercancía." },
   { icon: Snowflake, title: "Caja Refrigerada", desc: "2 cajas refrigeradas de 53\" para productos que requieren temperatura controlada." },
   { icon: Satellite, title: "Rastreo GPS", desc: "Todas las unidades cuentan con monitoreo online mediante rastreo satelital GPS." },
