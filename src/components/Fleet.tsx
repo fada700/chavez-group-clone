@@ -41,9 +41,10 @@ const Fleet = () => {
               Equipo
             </span>
             <h2 className="text-3xl md:text-5xl font-extrabold text-primary mb-4">
-              Nuestra Flota
+              Algunos de nuestros tracto camiones
             </h2>
             <p className="text-muted-foreground text-lg">
+              Parte de nuestra flota
             </p>
           </div>
         </Reveal>

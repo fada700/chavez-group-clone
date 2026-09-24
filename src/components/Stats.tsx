@@ -3,10 +3,10 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
 const stats = [
-  { icon: Truck, value: 9, suffix: "", label: "Tractos activos" },
-  { icon: Package, value: 9, suffix: "", label: "Cajas secas 53\"" },
+  { icon: Truck, value: 15, suffix: "", label: "Tractos activos" },
+  { icon: Package, value: 15, suffix: "", label: "Cajas secas 53\"" },
   { icon: Snowflake, value: 2, suffix: "", label: "Cajas refrigeradas 53\"" },
-  { icon: Map, value: 7, suffix: "+", label: "Estados con cobertura" },
+  { icon: Map, value: 18, suffix: "+", label: "Estados con cobertura" },
 ];
 
 const Stats = () => {

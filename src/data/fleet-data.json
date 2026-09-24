@@ -106,14 +106,14 @@
     },
     {
       "id": 10,
-      "num": "x9",
+      "num": "x15",
       "name": "Caja Seca 53\"",
       "img": "fleet/caja_seca.png",
       "type": "Caja Seca",
       "color": "Gris",
       "capacity": "53 pies · ~30 ton",
-      "features": ["9 unidades disponibles", "Mercancía general", "Piso reforzado"],
-      "highlight": "x9"
+      "features": ["15 unidades disponibles", "Mercancía general", "Piso reforzado"],
+      "highlight": "x15"
     },
     {
       "id": 11,
