@@ -76,44 +76,6 @@ const Clients = () => {
             ))}
           </div>
         </Reveal>
-
-        {/* Referencias de Contacto */}
-        <Reveal>
-          <div className="mb-6">
-            <div className="flex items-center gap-3 mb-5">
-              <span className="h-px flex-1 bg-border" />
-              <span className="text-xs font-bold uppercase tracking-widest text-accent">
-                Referencias de Contacto
-              </span>
-              <span className="h-px flex-1 bg-border" />
-            </div>
-          </div>
-        </Reveal>
-
-        <Reveal>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {clientsData.contactRefs.map((r) => (
-              <div
-                key={r.name}
-                className="group relative bg-card border border-border rounded-xl p-5 hover:border-accent hover:-translate-y-1 hover:shadow-lg transition-all duration-300 overflow-hidden"
-              >
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-accent to-primary scale-y-0 group-hover:scale-y-100 origin-top transition-transform duration-300" />
-                <div className="flex items-start gap-3">
-                  <div className="shrink-0 w-9 h-9 rounded-lg bg-muted group-hover:bg-accent/15 flex items-center justify-center transition-colors duration-300">
-                    {r.name.split(" ").length <= 2 ? (
-                      <User className="w-4 h-4 text-muted-foreground group-hover:text-accent transition-colors duration-300" />
-                    ) : (
-                      <Building2 className="w-4 h-4 text-muted-foreground group-hover:text-accent transition-colors duration-300" />
-                    )}
-                  </div>
-                  <div className="min-w-0">
-                    <div className="text-sm font-bold text-primary leading-snug">{r.name}</div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </Reveal>
       </div>
     </section>
   );
