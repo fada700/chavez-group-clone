@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-labelledby="title">
+  <title id="title">Disfruleg Comercializadora Castruita</title>
+  <rect width="360" height="220" fill="#fffef8"/>
+  <g fill="#d73545">
+    <path d="M38 31h182l15 18H58c-12 0-20-4-20-10s8-8 20-8z"/>
+    <path d="M52 57h174l18 17H74c-12 0-22-4-22-9 0-5 8-8 20-8z"/>
+    <path d="M69 83h157l19 17H90c-12 0-21-4-21-9 0-5 8-8 21-8z"/>
+    <path d="M88 109h137l19 16H108c-12 0-20-4-20-8 0-5 8-8 20-8z"/>
+    <path d="M215 44h34l24 17h-45z"/>
+    <path d="M236 68h41l22 17h-52z"/>
+    <path d="M258 92h43c9 0 15 5 15 12v11c0 6-5 10-12 10h-42z"/>
+  </g>
+  <path d="M215 43l18 82" fill="none" stroke="#fffef8" stroke-width="7"/>
+  <text x="180" y="166" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="37" font-weight="800" fill="#111">DISFRULEG</text>
+  <path d="M9 177h342" stroke="#d73545" stroke-width="5"/>
+  <text x="180" y="207" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#222">Comercializadora Castruita</text>
+</svg>

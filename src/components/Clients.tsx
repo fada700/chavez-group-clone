@@ -1,5 +1,5 @@
 import Reveal from "./Reveal";
-import { Building2, Sparkles, User } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import clientsData from "@/data/clients-data.json";
 
 // Import all logos
@@ -8,6 +8,7 @@ import argosLogo from "@/assets/logos/ARGOS_BC_logotipo.webp";
 import kellogsLogo from "@/assets/logos/Kellogg-Logo-650x366.png";
 import topoChicoLogo from "@/assets/logos/topo-chico-logo-png_seeklogo-218668.png";
 import kenworthLogo from "@/assets/logos/kenworth-logo-png_seeklogo-486527.png";
+import disfrulegLogo from "@/assets/logos/disfruleg.svg";
 
 // Map logo keys to imports
 const logoMap: Record<string, string> = {
@@ -16,6 +17,7 @@ const logoMap: Record<string, string> = {
   "/logos/Kellogg-Logo-650x366.png": kellogsLogo,
   "/logos/topo-chico-logo-png_seeklogo-218668.png": topoChicoLogo,
   "/logos/kenworth-logo-png_seeklogo-486527.png": kenworthLogo,
+  "/logos/disfruleg.svg": disfrulegLogo,
 };
 
 const Clients = () => {

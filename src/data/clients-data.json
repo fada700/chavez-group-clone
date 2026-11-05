@@ -24,6 +24,11 @@
       "name": "Kenworth",
       "logo": "/logos/kenworth-logo-png_seeklogo-486527.png",
       "subtitle": "Suc. San Juan del Río, Qro."
+    },
+    {
+      "name": "Disfruleg Comercializadora Castruita",
+      "logo": "/logos/disfruleg.svg",
+      "subtitle": null
     }
   ],
   "contactRefs": [
