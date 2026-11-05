@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 
 const services = [
   { icon: Settings2, title: " Tractocamiones", desc: "Tractocamiones disponibles." },
-  { icon: Package, title: "Caja Seca", desc: "cajas secas de 53\" disponibles para todo tipo de mercancía." },
+  { icon: Package, title: "Cajas Secas", desc: "cajas secas de 53\" disponibles para todo tipo de mercancía." },
   { icon: Snowflake, title: "Caja Refrigerada", desc: "cajas refrigeradas de 53\" para productos que requieren temperatura controlada." },
   { icon: Satellite, title: "Rastreo GPS", desc: "Todas las unidades cuentan con monitoreo online mediante rastreo satelital GPS." },
   { icon: ShieldCheck, title: "Seguro Vial", desc: "Cada unidad cuenta con seguro vial vigente para garantizar la seguridad de tu carga." },
